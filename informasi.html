@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informasi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">
+    <img src="img.jpg/logo sekola.jpeg" alt="Logo">
+    <div>
+      <h3>MTS DARUL IHYA</h3>
+      <p>مَنْ جَدَّ وَجَدَ</p>
+    </div>
+  </div>
+
+<div class="menu-toggle" id="menu-toggle">☰</div>
+
+  <nav id="nav-menu">
+    <a href="profil.html">Profil</a>
+    <a href="index.html">Home</a>
+    <a href="program.html" >Program</a>
+    <a href="informasi.html"class="active">Informasi</a>
+    <a href="kontak.html">Kontak</a>
+    <a href="visi misi.html">Visi & Misi</a>
+  </nav>
+</header>
+
+<!-- HEADER PAGE -->
+<section class="page-header">
+  <div class="overlay"></div>
+  <h1>Informasi</h1>
+</section>
+
+<!-- PROGRAM -->
+<section class="program">
+  <div class="program-card">
+    <h3>PPDB 2026</h3>
+    <p>Pendaftaran peserta Didik baru telah di buka.</p>
+    <img src="foto.jpeg" alt="Kegiatan Science">
+  </div>
+
+  <div class="program-card">
+    <h3>Technology Program</h3>
+    <p>Pembelajaran IT, coding, dan digital skill.</p>
+    <img src="technology.jpg" alt="Kegiatan Technology">
+  </div>
+
+  <div class="program-card">
+    <h3>Tahfidz Al-Qur'an</h3>
+    <p>Pembinaan hafalan Al-Qur’an secara terstruktur.</p>
+    <img src="tahfidz.jpg" alt="Kegiatan Tahfidz">
+  </div>
+
+  <div class="program-card">
+    <h3>Character Building</h3>
+    <p>Pembentukan akhlak dan karakter islami.</p>
+    <img src="character.jpg" alt="Kegiatan Character">
+  </div>
+</section>
+
+
+<script>
+  const toggle = document.getElementById("menu-toggle");
+  const nav = document.getElementById("nav-menu");
+
+  toggle.addEventListener("click", () => {
+    nav.classList.toggle("show");
+  });
+</script>
+
+</body>
+</html>
